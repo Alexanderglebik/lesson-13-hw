@@ -3,23 +3,36 @@ p:first-letter {
     text-align: left;
 }
 
-.table_style {
+table {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    width: 60%;
+    width: 600px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     line-height: 40px;
+    border-collapse:collapse;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    
     
 }
 
-.table_style th {
-    background-color: #a3e9a4;
+table th {
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: #A3E9A4;
+}
+    
+
+ table thead {
     font-size: 18px;
-    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    box-shadow: 0em 0.4em 5px rgba(122,122,122,0.5);
 }
 
-.table_style th:hover {
+table td {
+border-bottom: 1px solid white;
+border-left: 1px solid rgba(116,116,116,0.1);
+}
+
+th:hover {
     background-color: #6d95fa;
     color: white;
     text-decoration: underline;;
@@ -94,18 +107,18 @@ a.item3:active {
     font-weight: bold;
 }    
 
-    tr:last-of-type {
-        background-color:rgba(210, 250, 255, 0.6);
+tr:last-of-type {
+    background-color:rgba(210, 250, 255, 0.6);
 }
 
-    tr:nth-child(-n+2) {
+tr:nth-child(-n+2) {
         background-color:rgba(255, 192, 192, 0.5);
 }
 
-    tr:nth-child(n+4):nth-child(-n+5) {
+tr:nth-child(n+4):nth-child(-n+5) {
         background-color: rgba(191, 191, 191, 0.2);
 }
 
-    tr:nth-child(n+7):nth-child(-n+8) {
+tr:nth-child(n+7):nth-child(-n+8) {
         background-color: rgba(255, 238, 149, 0.6);
 }
