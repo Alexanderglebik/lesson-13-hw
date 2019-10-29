@@ -1,0 +1,111 @@
+p:first-letter {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.table_style {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    width: 600px;
+    text-align: center;
+    border-collapse: ;
+    padding: 10px;
+    line-height: 2;
+}
+
+.table_style th {
+    background-color: #a3e9a4;
+    font-size: 18px;
+    box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.15)
+}
+
+.table_style th:hover {
+    background-color: #6d95fa;
+    color: white;
+    text-decoration: underline;;
+    font-size: 18px;
+    box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.15)
+}
+
+
+a.item1 { 
+    text-decoration: none;
+    color: black; 
+    padding: 2px;
+    }
+
+a.item1:visited {
+    color: #800080; 
+    } 
+
+a.item1:hover {
+    text-decoration:underline; 
+    color: black; 
+    font-weight: bold; 
+    }
+ 
+a.item1:active {
+    color:blue;
+    text-decoration: none;
+}
+
+a.item2 { 
+    text-decoration: none;
+    color: black; 
+    padding: 2px;
+    }
+
+a.item2:visited {
+    color: #800080; 
+    } 
+
+a.item2:hover {
+    text-decoration:underline; 
+    color:rgb(50, 106, 139); 
+    font-weight: bold; 
+    }
+ 
+a.item2:active {
+    color:blue;
+    text-decoration: underline;
+    font-weight: bold;
+    }
+
+a.item3 { 
+    text-decoration: none;
+    color: black; 
+    padding: 2px;
+    }
+    
+a.item3:visited {
+    color: orange; 
+    } 
+    
+a.item3:hover {
+    text-decoration:none;
+    background-color: rgba(50, 106, 139,0.5);
+    color:black; 
+    }
+     
+a.item3:active {
+    color:black;
+    text-decoration:none;
+    background-color:rgba(198, 4, 247, 0.5);
+    font-weight: bold;
+    }    
+
+    tr:last-of-type {
+        background-color:rgba(210, 250, 255, 0.6);
+    }
+
+    tr:nth-child(-n+2) {
+        background-color:rgba(255, 192, 192, 0.5);
+    }
+
+    tr:nth-child(n+4):nth-child(-n+5) {
+        background-color: rgba(191, 191, 191, 0.2);
+    }
+
+    tr:nth-child(n+7):nth-child(-n+8) {
+        background-color: rgba(255, 238, 149, 0.6);
+    }
