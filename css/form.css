@@ -16,6 +16,7 @@ input[type="text"]:valid {
     box-sizing: border-box;
     box-shadow: 1px 1px 10px rgba(12, 149, 0, 0.2);
     outline:none;
+    width: 157px;
 }
 
 input[type="text"]:invalid {
@@ -23,6 +24,7 @@ input[type="text"]:invalid {
     box-sizing: border-box;
     box-shadow: 1px 3px 6px rgba(255, 0, 0, 0.2);
     outline:none;
+    width: 157px;
 }
 
 input[type="number"]:valid {
@@ -31,6 +33,8 @@ input[type="number"]:valid {
     box-sizing: border-box;
     box-shadow: 1px 1px 10px rgba(12, 149, 0, 0.2);
     outline:none;
+    width: 157px;
+
 }
 
 input[type="number"]:invalid {
@@ -38,6 +42,7 @@ input[type="number"]:invalid {
     box-sizing: border-box;
     box-shadow: 1px 3px 6px rgba(255, 0, 0, 0.2);
     outline:none;
+    width: 157px;
 }    
 
 input[type="email"]:valid {
@@ -45,6 +50,7 @@ input[type="email"]:valid {
     box-sizing: border-box;
     box-shadow: 1px 1px 10px rgba(12, 149, 0, 0.2);
     outline:none;
+    width: 157px;
 }
 
 input[type="email"]:invalid {
@@ -52,6 +58,7 @@ input[type="email"]:invalid {
     box-sizing: border-box;
     box-shadow: 1px 3px 6px rgba(255, 0, 0, 0.2);
     outline:none;
+    width: 157px;
 }
 
 button[type="reset"] {
@@ -61,7 +68,10 @@ button[type="reset"] {
     left: 17px;
     top: 215px;
     background: #FFFFFF;
-    border: 1px solid #FF6644;    
+    border: 1px solid #FF6644; 
+    width: 80px;
+    height: 24px;
+    margin-left: 17px;   
 }
 
 button[type="reset"]:hover {
@@ -69,6 +79,9 @@ button[type="reset"]:hover {
     color: white;
     box-shadow: 2px 2px 8px rgba(255, 102, 68, 0.25);
     outline:none;
+    width: 80px;
+    height: 24px;
+    margin-left: 17px;
 }
 
 button[type="reset"]:active {
@@ -76,6 +89,9 @@ button[type="reset"]:active {
     color: white;
     box-shadow: 3px 3px 10px rgba(218, 39, 0, 0.45);
     outline:none;
+    width: 80px;
+    height: 24px;
+    margin-left: 17px;
 }
 
 button[type="submit"] {
@@ -86,6 +102,8 @@ button[type="submit"] {
     background:#5278FF;
     border: 1px ;
     color: white;
+    width: 80px;
+    height: 24px;
 }
 
 button[type="submit"]:hover {
@@ -93,11 +111,15 @@ button[type="submit"]:hover {
     box-shadow: 2px 2px 8px rgba(1, 50, 223, 0.25);
     outline:none;
     color: white;
+    width: 80px;
+    height: 24px;
 }
 
 button[type="submit"]:active {
     background: #001C81;
     box-shadow: 3px 3px 10px rgba(0, 28, 129, 0.25);
     outline:none;
-    color: white;    
+    color: white;  
+    width: 80px;
+    height: 24px;
 }
